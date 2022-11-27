@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Astronomical Wonders</string>
+    <string name="fav_def_text">Add your favorites here!</string>
+    <string name="click_calendar_text">"Click on the calendar to get today's picture!"</string>
+    <string name="btn_get_photo_text">"Get Photo"</string>
+
+</resources>
