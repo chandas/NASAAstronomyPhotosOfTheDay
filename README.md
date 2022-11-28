@@ -1,58 +1,38 @@
-# Astronomy Picture of the Day
-https://apod.nasa.gov/apod/astropix.html
+Libraries Included
 
-## NASA APIs ##
-This app generates requests based on NASA's APOD service:
-https://api.nasa.gov/
+    LeakCanary (UI based Library for detecting memory leaks)
+    Glide (A powerful image downloading and caching library for Android.)
+    Volley (An HTTP library that makes networking for Android apps easier.)
 
-### *Sign up for your API key at:* ###
-https://api.nasa.gov/index.html#apply-for-an-api-key
+Features
 
-### *An example query:* ###
-https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
+    Allow users to search for the picture for a date of their choice.
+    Allow users to create/manage a list of "favorite" listings.
+    Displays date, explanation, title and the image of the day.
 
-The DEMO_KEY should be changed at **line 64** of **MainActivity.java** *(mUrlRequestDefaultKey)*
+Enhancements
 
-## Download ##
-Download it [here](https://raw.githubusercontent.com/PrasoonDhaneshwar/Astronomy-Photo-Of-The-Day-Android/main/Astronomy-Picture-of-the-Day-v1.0.apk) to run the application in your Android phone.
-
-#### App Features: ####
-- Allow users to search for the picture for a date of their choice.
-- Allow users to create/manage a list of "favorite" listings.
-- Displays date, explanation, title and the image of the day.
-
-
-#### Extras: ####
-- Dark mode support
-- Handling for different screen sizes and orientations.
+    Dark mode support
+    Handling for different screen sizes and orientations.
 
 
 ## Screenshots ##
-#### *Select any date and fetch it's corresponding picture information.* ####
+#### *First screen on the app* ####
 
-![](images/MainPage.jpg)
+![](images/MainPageInLightMode.jpg)
+
+#### *Switch the app to dark mode* ####
+
+![](images/MainPageInDarkMode.jpg)
+
+#### *Open the calendar to select a date* ####
+
+![](images/AppDatePicker.jpg)
 
 #### *"Add" it to "Favorites" and save the list.* ####
 
-![](images/ListOfImages.jpg)
+![](images/AddToFavList.jpg)
 
-#### *Support for orientation:* ####
+#### *Favorites List Page* ####
 
-![](images/MainPageLandscape.jpg)
-
-#### *Landscape workflow:* ####
-
-![](images/LandscapeFlow.jpg)
-
-#### *Detailed view of picture:* ####
-
-![](images/DetailImage.jpg)
-
-
-#### Dependencies ####
-
-- *[Volley](https://developer.android.com/training/volley*/).* An HTTP library that makes networking for Android apps easier.
-- *[Picasso](https://square.github.io/picasso/).* A powerful image downloading and caching library for Android.
-- *[Gson](https://github.com/google/gson).* Convert Java Objects into their JSON representation.
-
-*Note: This app uses HTTP requests, and sometimes it may return a timeout. "View" again to make a request for metadata.*
+![](images/FavListPage.jpg)
