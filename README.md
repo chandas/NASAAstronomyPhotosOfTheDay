@@ -16,5 +16,23 @@ Enhancements
     Handling for different screen sizes and orientations.
 
 
-
 ## Screenshots ##
+#### *First screen on the app* ####
+
+![](images/MainPageInLightMode.jpg)
+
+#### *Switch the app to dark mode* ####
+
+![](images/MainPageInDarkMode.jpg)
+
+#### *Open the calendar to select a date* ####
+
+![](images/AppDatePicker.jpg)
+
+#### *"Add" it to "Favorites" and save the list.* ####
+
+![](images/AddToFavList.jpg)
+
+#### *Favorites List Page* ####
+
+![](images/FavListPage.jpg)
