@@ -54,7 +54,6 @@ public class MainActivityTest {
         assertThat(tView3, notNullValue());
         assertThat(tView3, instanceOf(Button.class));
         Button btn = (Button) tView3;
-//        assertThat(btn.isClickable(), true);
-
+        assertThat(btn.isClickable(), is(true));
     }
 }
