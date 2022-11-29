@@ -14,6 +14,8 @@ Enhancements
 
     Dark mode support
     Handling for different screen sizes and orientations.
+    
+Instrumentation Unit Tests available (To be run on emulator or device to validate)
 
 
 ## Screenshots ##
